@@ -1,0 +1,206 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Cadastro </title>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+   <link href="configuracao.css" rel="stylesheet">
+  </head>
+  <body >
+  <div class="row">
+    <div class="col-lg-12">
+      <img  src="baner.jpg"width="100%" height= "250px"  >
+    </div>
+  </div>
+
+     <center><h1><i> Cadastro </h1></i></center>
+
+.<br><br>
+
+<div class="row">
+  <div class="col col-lg-4">
+  </div>
+  <div class="col col-lg-4">
+    <form action="#" method="post" class="formhorizont" id="form_cadastro">
+      <div class="form-group">
+        <label for="lblnome" class="col-sm-2 control-label">Nome: </label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="nome" placeholder="Nome">
+        </div>
+      </div><br><br>
+
+      <div class="form-group">
+        <label for="lblcpf" class="col-sm-2 control-label">CPF: </label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="cpf" placeholder="CPF">
+        </div>
+      </div><br><br>
+
+      <div class="form-group">
+        <label for="lblrg" class="col-sm-2 control-label">RG: </label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="rg" placeholder="RG">
+        </div>
+      </div><br><br>
+
+      <div class="form-group">
+        <label for="lblrua" class="col-sm-2 control-label">Rua: </label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="rua" placeholder="Rua">
+        </div>
+      </div><br><br>
+
+      <div class="form-group">
+        <label for="lblnumero" class="col-sm-2 control-label">Numero: </label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="numero" placeholder="Numero">
+        </div>
+      </div><br><br>
+
+      <div class="form-group">
+        <label for="lblcomple" class="col-sm-2 control-label">Complemento: </label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="complemento" placeholder="Complemento">
+        </div>
+      </div><br><br>
+
+      <div class="form-group">
+        <label for="lblbairro" class="col-sm-2 control-label">Bairro: </label>
+        <div class="col-sm-6">
+          <input type="text" class="form-control" id="bairro" placeholder="Bairro">
+        </div>
+      </div><br><br>
+
+      <div class="form-group">
+        <label for="lblnumero" class="col-sm-2 control-label">Data: </label>
+        <div class="col-sm-6">
+          <input type="date" class="form-control" id="data" placeholder="Data">
+        </div>
+      </div><br><br>
+
+		<label for="lblcidade" class="col-sm-2 control-label">Cidade: </label>
+       <div class="col-sm-6"id="listacidades">
+        <select class="form-control"name="Cidades">
+          <option value="0"></option>
+          <option value="1">João Monlevade</option>
+          <option value="2">Itabira</option>
+          <option value="3">Alvinopolis</option>
+          <option value="4">São Domingos do prata</option>
+        </select>
+      </div>
+      <br><br>
+
+	  <label for="lblcidade" class="col-sm-2 control-label">Estado: </label>
+      <div class="col-sm-6" id="listaestados">
+        <select class="form-control" name="Estados">
+          <option value="0"></option>
+          <option value="1">MG</option>
+          <option value="2">SP</option>
+          <option value="3">RJ</option>
+          <option value="4">BA</option>
+        </select>
+      </div>
+      <br><br>
+
+      <label for="lblesexo" class="col-sm-2 control-label">Sexo: </label>
+      <label class="radio-inline"><input type="radio" name="genero" value="F">Feminino</label>
+      <label class="radio-inline"><input type="radio" name="genero" value="M">Masculino</label>
+      <label class="radio-inline"><input type="radio" name="genero" value="N">Não binário</label>
+      <br> <br>
+
+     <label for="lbletelefone" class="col-sm-3 control-label">Telefone: </label><br>
+	 <div class="checkbox">
+      <label><input type="checkbox" name="tel"> Whatsapp</label><br>
+	  </div>
+	  <div class="checkbox">
+      <label><input type="checkbox" name="tel"> Telegram</label><br>
+	  </div>
+	  <div class="checkbox">
+      <label><input type="checkbox" name="tel"> Skype</label><br>
+	  </div>
+      <br><br>
+
+      <label for="lbletelefone2" class="col-sm-6 control-label">Deseja receber informações: </label><br>
+	  <div class="checkbox">
+      <label><input type="checkbox" name="tel2"> Whatsapp</label><br>
+	  </div>
+	  <div class="checkbox">
+      <label><input type="checkbox" name="tel2"> Telegram</label><br>
+	  </div>
+	  <div class="checkbox">
+      <label><input type="checkbox" name="tel2"> Skype</label><br>
+	  </div>
+      <br><br>
+
+      <label for="lbletelefone2" class="col-sm-3 control-label">Área de Interesse: </label><br>
+	  <div class="checkbox">
+      <label><input type="checkbox" name="tel2"> Veiculos Classicos</label><br>
+	  </div>
+	  <div class="checkbox">
+      <label><input type="checkbox" name="tel2"> Tuning</label><br>
+	  </div>
+	  <div class="checkbox">
+      <label><input type="checkbox" name="tel2"> Carros Esportivos</label><br>
+	  </div>
+	  <div class="checkbox">
+      <label><input type="checkbox" name="tel2"> Lançamentos</label><br>
+	  </div>
+
+	  <label for="lblemail" class="col-sm-3 control-label"> E-mail: </label>
+    <div class="input-group col-sm-6">
+	   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input id="email" type="text" class="form-control" name="email" placeholder="E-mail">
+   </div>
+      <br><br>
+
+       <label for="lblemail2" class="col-sm-3 control-label"> Confirmar E-mail: </label>
+    <div class="input-group col-sm-6">
+	   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input id="email2" type="text" class="form-control" name="email2" placeholder="Confirmar E-mail">
+   </div>
+      <br><br>
+
+	<label for="lblsenha" class="col-sm-3 control-label"> Senha: </label>
+     <div class="input-group col-sm-6">
+		<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+		<input id="senha" type="password" class="form-control" name="senha" placeholder="Senha">
+	</div>
+      <br><br>
+
+       <label for="lblsenha" class="col-sm-3 control-label"> Confirmar Senha: </label>
+    <div class="input-group col-sm-6">
+		<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+		<input id="senha2" type="password" class="form-control" name="senha2" placeholder="Confirmar Senha">
+	</div>
+      <br><br>
+	  
+</div>
+</div>
+<div class="row">
+  <div class="col col-lg-4">
+  </div>
+  <div class="col col-lg-2">
+      <button  class="btn " type="submit">Cadastrar</button>
+  </div>
+  <div class="col col-lg-2">
+      <button  class="btn" type="reset">Limpar</button>
+  </div>
+ </div> <br><br>
+    </form>
+	<div class="row">
+		<div class="col col-lg-4">
+		</div>
+		<div class="col col-lg-3">
+			<div class="span3">
+
+				<center><a class="btn " href="menu.html" role="button">Voltar ao Menu</a></center>
+			</div>
+		</div>
+	</div>
+
+
+
+   </body>
+
+</html>
